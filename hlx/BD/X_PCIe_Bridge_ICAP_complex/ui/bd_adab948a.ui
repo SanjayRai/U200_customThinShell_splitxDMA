@@ -1,0 +1,175 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.128406",
+   "Default View_TopLeft":"-3294,16",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port m_axis_cq -pg 1 -lvl 6 -x 2560 -y 1840 -defaultsOSRD
+preplace port m_axis_rc -pg 1 -lvl 6 -x 2560 -y 2580 -defaultsOSRD
+preplace port pcie4_cfg_control -pg 1 -lvl 0 -x -80 -y 2890 -defaultsOSRD
+preplace port pcie4_cfg_fc -pg 1 -lvl 6 -x 2560 -y 2700 -defaultsOSRD
+preplace port pcie4_cfg_interrupt -pg 1 -lvl 0 -x -80 -y 2870 -defaultsOSRD
+preplace port pcie4_cfg_mesg_rcvd -pg 1 -lvl 6 -x 2560 -y 2740 -defaultsOSRD
+preplace port pcie4_cfg_mesg_tx -pg 1 -lvl 6 -x 2560 -y 2660 -defaultsOSRD
+preplace port pcie4_cfg_mgmt -pg 1 -lvl 0 -x -80 -y 2830 -defaultsOSRD
+preplace port pcie4_cfg_msi -pg 1 -lvl 0 -x -80 -y 2850 -defaultsOSRD
+preplace port pcie_mgt -pg 1 -lvl 6 -x 2560 -y 2620 -defaultsOSRD
+preplace port s_axis_cc -pg 1 -lvl 0 -x -80 -y 1910 -defaultsOSRD
+preplace port s_axis_rq -pg 1 -lvl 0 -x -80 -y 2810 -defaultsOSRD
+preplace port SHELL_VER_i -pg 1 -lvl 6 -x 2560 -y 1330 -defaultsOSRD
+preplace port DEVICE_DNA_A -pg 1 -lvl 6 -x 2560 -y 690 -defaultsOSRD
+preplace port DEVICE_DNA_C -pg 1 -lvl 6 -x 2560 -y 850 -defaultsOSRD
+preplace port EFUSE_i -pg 1 -lvl 6 -x 2560 -y 1310 -defaultsOSRD
+preplace port DEVICE_DNA_B -pg 1 -lvl 6 -x 2560 -y 730 -defaultsOSRD
+preplace port DEVICE_DNA_D -pg 1 -lvl 6 -x 2560 -y 890 -defaultsOSRD
+preplace port cfg_err_cor_out -pg 1 -lvl 6 -x 2560 -y 2030 -defaultsOSRD
+preplace port cfg_err_fatal_out -pg 1 -lvl 6 -x 2560 -y 2050 -defaultsOSRD
+preplace port cfg_err_nonfatal_out -pg 1 -lvl 6 -x 2560 -y 2070 -defaultsOSRD
+preplace port cfg_phy_link_down -pg 1 -lvl 6 -x 2560 -y 2210 -defaultsOSRD
+preplace port cfg_pl_status_change -pg 1 -lvl 6 -x 2560 -y 2250 -defaultsOSRD
+preplace port pcie_rq_seq_num_vld0 -pg 1 -lvl 6 -x 2560 -y 2310 -defaultsOSRD
+preplace port pcie_rq_seq_num_vld1 -pg 1 -lvl 6 -x 2560 -y 2330 -defaultsOSRD
+preplace port phy_rdy_out -pg 1 -lvl 6 -x 2560 -y 2680 -defaultsOSRD
+preplace port sys_clk -pg 1 -lvl 0 -x -80 -y 2910 -defaultsOSRD
+preplace port sys_clk_gt -pg 1 -lvl 0 -x -80 -y 2930 -defaultsOSRD
+preplace port sys_rst_n -pg 1 -lvl 0 -x -80 -y 2950 -defaultsOSRD
+preplace port user_clk -pg 1 -lvl 6 -x 2560 -y 2600 -defaultsOSRD
+preplace port user_lnk_up -pg 1 -lvl 6 -x 2560 -y 2640 -defaultsOSRD
+preplace port user_reset -pg 1 -lvl 6 -x 2560 -y 2720 -defaultsOSRD
+preplace portBus cfg_current_speed -pg 1 -lvl 6 -x 2560 -y 2010 -defaultsOSRD
+preplace portBus cfg_function_status -pg 1 -lvl 6 -x 2560 -y 2090 -defaultsOSRD
+preplace portBus cfg_local_error_out -pg 1 -lvl 6 -x 2560 -y 2110 -defaultsOSRD
+preplace portBus cfg_ltssm_state -pg 1 -lvl 6 -x 2560 -y 2130 -defaultsOSRD
+preplace portBus cfg_max_payload -pg 1 -lvl 6 -x 2560 -y 2150 -defaultsOSRD
+preplace portBus cfg_max_read_req -pg 1 -lvl 6 -x 2560 -y 2170 -defaultsOSRD
+preplace portBus cfg_negotiated_width -pg 1 -lvl 6 -x 2560 -y 2190 -defaultsOSRD
+preplace portBus cfg_phy_link_status -pg 1 -lvl 6 -x 2560 -y 2230 -defaultsOSRD
+preplace portBus m_pcie_cq_np_req -pg 1 -lvl 0 -x -80 -y 3430 -defaultsOSRD
+preplace portBus pcie_cq_np_req_count -pg 1 -lvl 6 -x 2560 -y 1990 -defaultsOSRD
+preplace portBus pcie_rq_seq_num0 -pg 1 -lvl 6 -x 2560 -y 2270 -defaultsOSRD
+preplace portBus pcie_rq_seq_num1 -pg 1 -lvl 6 -x 2560 -y 2290 -defaultsOSRD
+preplace portBus PCIE_USR_CLK_DIV4_62_5MHz -pg 1 -lvl 6 -x 2560 -y 320 -defaultsOSRD
+preplace portBus RESET_GATE -pg 1 -lvl 6 -x 2560 -y 1160 -defaultsOSRD
+preplace portBus PR_DECOUPLE -pg 1 -lvl 6 -x 2560 -y 1680 -defaultsOSRD
+preplace portBus SHELL_TO_CL_RST -pg 1 -lvl 6 -x 2560 -y 1470 -defaultsOSRD
+preplace inst axi_bram_TAP -pg 1 -lvl 4 -x 1740 -y 2520 -defaultsOSRD
+preplace inst axi_bram_ctrl_1_bram -pg 1 -lvl 5 -x 2360 -y 2540 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 4 -x 1740 -y 1020 -defaultsOSRD
+preplace inst axi_hwicap_0 -pg 1 -lvl 4 -x 1740 -y 150 -defaultsOSRD
+preplace inst axiltap_0 -pg 1 -lvl 2 -x 790 -y 1920 -defaultsOSRD
+preplace inst credit_handler_0 -pg 1 -lvl 4 -x 1740 -y 2150 -defaultsOSRD
+preplace inst pcie4_uscale_plus_0 -pg 1 -lvl 1 -x 150 -y 2870 -defaultsOSRD
+preplace inst pr_icap_0 -pg 1 -lvl 5 -x 2360 -y 230 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 1 -x 150 -y 3320 -defaultsOSRD
+preplace inst proc_sys_reset_1 -pg 1 -lvl 3 -x 1170 -y 1700 -defaultsOSRD
+preplace inst smartconnect_0 -pg 1 -lvl 3 -x 1170 -y 1070 -defaultsOSRD
+preplace inst util_ds_buf_0 -pg 1 -lvl 4 -x 1740 -y 560 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 3 -x 1170 -y 2400 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 3 -x 1170 -y 370 -defaultsOSRD
+preplace inst axi_quad_spi_0 -pg 1 -lvl 4 -x 1740 -y 410 -defaultsOSRD
+preplace inst system_management_wiz_0 -pg 1 -lvl 4 -x 1740 -y 1690 -defaultsOSRD
+preplace inst axi_gpio_SHELL_VERSION_EFUSE -pg 1 -lvl 4 -x 1740 -y 1320 -defaultsOSRD
+preplace inst axi_gpio_DEVICE_DNA_AB -pg 1 -lvl 4 -x 1740 -y 710 -defaultsOSRD -resize 260 136
+preplace inst axi_gpio_DEVICE_DNA_CD -pg 1 -lvl 4 -x 1740 -y 870 -defaultsOSRD -resize 260 136
+preplace inst axi_gpio_SHELL_TO_CL_OUT -pg 1 -lvl 4 -x 1740 -y 1470 -defaultsOSRD -resize 260 136
+preplace inst axi_gpio_RESET_GATE -pg 1 -lvl 4 -x 1740 -y 1170 -defaultsOSRD
+preplace inst axi_gpio_PR_DECOUPLE -pg 1 -lvl 5 -x 2360 -y 1690 -defaultsOSRD
+preplace netloc axi_hwicap_0_icap_csib 1 4 1 2080 100n
+preplace netloc axi_hwicap_0_icap_o 1 4 1 2070 120n
+preplace netloc axi_hwicap_0_icap_rdwrb 1 4 1 2030 160n
+preplace netloc credit_handler_0_m_cfg_current_speed 1 4 2 NJ 2010 NJ
+preplace netloc credit_handler_0_m_cfg_err_cor_out 1 4 2 NJ 2030 NJ
+preplace netloc credit_handler_0_m_cfg_err_fatal_out 1 4 2 NJ 2050 NJ
+preplace netloc credit_handler_0_m_cfg_err_nonfatal_out 1 4 2 NJ 2070 NJ
+preplace netloc credit_handler_0_m_cfg_function_status 1 4 2 NJ 2090 NJ
+preplace netloc credit_handler_0_m_cfg_local_error_out 1 4 2 NJ 2110 NJ
+preplace netloc credit_handler_0_m_cfg_ltssm_state 1 4 2 NJ 2130 NJ
+preplace netloc credit_handler_0_m_cfg_max_payload 1 4 2 NJ 2150 NJ
+preplace netloc credit_handler_0_m_cfg_max_read_req 1 4 2 NJ 2170 NJ
+preplace netloc credit_handler_0_m_cfg_negotiated_width 1 4 2 NJ 2190 NJ
+preplace netloc credit_handler_0_m_cfg_phy_link_down 1 4 2 NJ 2210 NJ
+preplace netloc credit_handler_0_m_cfg_phy_link_status 1 4 2 NJ 2230 NJ
+preplace netloc credit_handler_0_m_cfg_pl_status_change 1 4 2 NJ 2250 NJ
+preplace netloc credit_handler_0_m_pcie_cq_np_req_count 1 4 2 NJ 1990 NJ
+preplace netloc credit_handler_0_m_pcie_rq_seq_num0 1 4 2 NJ 2270 NJ
+preplace netloc credit_handler_0_m_pcie_rq_seq_num1 1 4 2 NJ 2290 NJ
+preplace netloc credit_handler_0_m_pcie_rq_seq_num_vld0 1 4 2 NJ 2310 NJ
+preplace netloc credit_handler_0_m_pcie_rq_seq_num_vld1 1 4 2 NJ 2330 NJ
+preplace netloc credit_handler_0_s_pcie_cq_np_req 1 1 3 380 2030 970J 1960 NJ
+preplace netloc pcie4_uscale_plus_0_cfg_current_speed 1 1 3 370 2010 980J 2000 NJ
+preplace netloc pcie4_uscale_plus_0_cfg_err_cor_out 1 1 3 390 2020 NJ 2020 NJ
+preplace netloc pcie4_uscale_plus_0_cfg_err_fatal_out 1 1 3 400 2040 NJ 2040 NJ
+preplace netloc pcie4_uscale_plus_0_cfg_err_nonfatal_out 1 1 3 410 2060 NJ 2060 NJ
+preplace netloc pcie4_uscale_plus_0_cfg_function_status 1 1 3 430 2080 NJ 2080 NJ
+preplace netloc pcie4_uscale_plus_0_cfg_local_error_out 1 1 3 440 2100 NJ 2100 NJ
+preplace netloc pcie4_uscale_plus_0_cfg_ltssm_state 1 1 3 450 2120 NJ 2120 NJ
+preplace netloc pcie4_uscale_plus_0_cfg_max_payload 1 1 3 460 2140 NJ 2140 NJ
+preplace netloc pcie4_uscale_plus_0_cfg_max_read_req 1 1 3 490 2160 NJ 2160 NJ
+preplace netloc pcie4_uscale_plus_0_cfg_negotiated_width 1 1 3 510 2180 NJ 2180 NJ
+preplace netloc pcie4_uscale_plus_0_cfg_phy_link_down 1 1 3 520 2200 NJ 2200 NJ
+preplace netloc pcie4_uscale_plus_0_cfg_phy_link_status 1 1 3 530 2220 NJ 2220 NJ
+preplace netloc pcie4_uscale_plus_0_cfg_pl_status_change 1 1 3 540 2240 NJ 2240 NJ
+preplace netloc pcie4_uscale_plus_0_pcie_cq_np_req_count 1 1 3 420 2150 NJ 2150 1410J
+preplace netloc pcie4_uscale_plus_0_pcie_rq_seq_num0 1 1 3 550J 2300 NJ 2300 1410
+preplace netloc pcie4_uscale_plus_0_pcie_rq_seq_num1 1 1 3 560J 2310 NJ 2310 1450
+preplace netloc pcie4_uscale_plus_0_pcie_rq_seq_num_vld0 1 1 3 570J 2320 NJ 2320 1480
+preplace netloc pcie4_uscale_plus_0_pcie_rq_seq_num_vld1 1 1 3 580J 2330 NJ 2330 1490
+preplace netloc pcie4_uscale_plus_0_phy_rdy_out 1 1 5 590J 2700 NJ 2700 1350J 2680 NJ 2680 NJ
+preplace netloc pcie4_uscale_plus_0_user_clk1 1 0 6 -60 3220 470 1070 990 910 1470 2690 NJ 2690 2540J
+preplace netloc pcie4_uscale_plus_0_user_lnk_up 1 1 5 600J 2710 NJ 2710 1490 2640 NJ 2640 NJ
+preplace netloc pcie4_uscale_plus_0_user_reset 1 0 6 -60 3420 610 2720 990 2720 NJ 2720 NJ 2720 NJ
+preplace netloc pr_icap_0_icap_avail 1 4 2 NJ 80 2540
+preplace netloc pr_icap_0_icap_dout 1 4 2 NJ 140 2530
+preplace netloc pr_icap_0_icap_pr_status 1 4 2 NJ 1030 2530
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 1 3 500 2340 NJ 2340 1350
+preplace netloc proc_sys_reset_1_interconnect_aresetn 1 3 2 1410 310 2030
+preplace netloc sys_clk_1 1 0 1 NJ 2910
+preplace netloc sys_clk_gt_1 1 0 1 NJ 2930
+preplace netloc sys_rst_n_1 1 0 1 NJ 2950
+preplace netloc xdma_0_pcie_cq_np_req_sd 1 0 5 NJ 3430 NJ 3430 NJ 3430 NJ 3430 2000
+preplace netloc xlconstant_0_dout 1 3 2 1460 2600 1990
+preplace netloc xlconstant_1_dout 1 3 2 1400 2630 2010
+preplace netloc PCIE_USR_CLK_DIV4_62_5MHz 1 2 4 990 1230 1490 300 2060 320 NJ
+preplace netloc RESET_GATE 1 4 2 2050J 1160 NJ
+preplace netloc PR_DECOUPLE 1 5 1 2540 1680n
+preplace netloc SHELL_TO_CL_RST 1 4 2 2020J 1470 N
+preplace netloc xdma_0_pcie4_cfg_interrupt 1 0 1 NJ 2870
+preplace netloc xdma_0_pcie4_cfg_msi 1 0 1 NJ 2850
+preplace netloc smartconnect_0_M03_AXI 1 3 1 1360 380n
+preplace netloc SHELL_VER_i 1 4 2 NJ 1330 NJ
+preplace netloc pcie4_uscale_plus_0_pcie4_cfg_fc 1 1 5 NJ 2640 NJ 2640 1400J 2700 NJ 2700 NJ
+preplace netloc DBG_axiltap_0_M_AXIS_PCIE_CC 1 0 3 -60 1820 NJ 1820 970
+preplace netloc xdma_0_s_axis_rq 1 0 1 NJ 2810
+preplace netloc pcie4_uscale_plus_0_pcie4_mgt 1 1 5 NJ 2620 NJ 2620 NJ 2620 NJ 2620 NJ
+preplace netloc smartconnect_0_M08_AXI 1 3 1 1420 1130n
+preplace netloc pcie4_uscale_plus_0_pcie4_cfg_mesg_tx 1 1 5 NJ 2660 NJ 2660 NJ 2660 NJ 2660 NJ
+preplace netloc axi_bram_ctrl_1_BRAM_PORTB 1 4 1 2030 2530n
+preplace netloc axiltap_0_M_AXI 1 2 1 980 1050n
+preplace netloc pcie4_uscale_plus_0_m_axis_rc 1 1 5 NJ 2600 NJ 2600 1350J 2610 NJ 2610 2530J
+preplace netloc smartconnect_0_M06_AXI 1 3 1 1380 680n
+preplace netloc smartconnect_0_M05_AXI 1 3 1 1450 1070n
+preplace netloc smartconnect_0_M04_AXI 1 3 1 1440 1050n
+preplace netloc smartconnect_0_M07_AXI 1 3 1 1390 840n
+preplace netloc DEVICE_DNA_A 1 4 2 NJ 690 NJ
+preplace netloc EFUSE_i 1 4 2 NJ 1310 NJ
+preplace netloc DEVICE_DNA_B 1 4 2 NJ 730 NJ
+preplace netloc DEVICE_DNA_C 1 4 2 NJ 850 NJ
+preplace netloc smartconnect_0_M02_AXI 1 3 1 1350 110n
+preplace netloc xdma_0_pcie4_cfg_control 1 0 1 NJ 2890
+preplace netloc smartconnect_0_M09_AXI 1 3 1 N 1150
+preplace netloc xdma_0_s_axis_cc 1 0 2 NJ 1910 NJ
+preplace netloc DEVICE_DNA_D 1 4 2 NJ 890 NJ
+preplace netloc smartconnect_0_M10_AXI 1 3 2 1370J 320 2040
+preplace netloc smartconnect_0_M01_AXI 1 3 1 1480 990n
+preplace netloc DBG_axiltap_0_M_AXIS_PCIE_CQ 1 1 3 360 1830 NJ 1830 1350
+preplace netloc axi_bram_ctrl_1_BRAM_PORTA 1 4 1 2060 2510n
+preplace netloc xdma_0_pcie_cfg_mgmt_sd 1 0 1 NJ 2830
+preplace netloc pcie4_uscale_plus_0_pcie4_cfg_mesg_rcvd 1 1 5 480J 2650 NJ 2650 NJ 2650 NJ 2650 2530J
+preplace netloc axiltap_0_M_AXIS_BYPASS_CQ 1 2 4 N 1920 1490 1840 NJ 1840 NJ
+preplace netloc axiltap_M_AXI 1 3 1 1430 970n
+levelinfo -pg 1 -80 150 790 1170 1740 2360 2560
+pagesize -pg 1 -db -bbox -sgen -300 0 2870 3450
+"
+}
+0

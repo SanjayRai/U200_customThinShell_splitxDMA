@@ -1,0 +1,7 @@
+echo $1
+for (( i=0; i < $1; i++))
+do
+echo "---------- test loop $i "
+./VF1_BRAM_test
+
+done

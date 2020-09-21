@@ -1,0 +1,2 @@
+vivado -source vivado_batch_CL_T2.tcl 
+vivado -source  vivado_batch_shell_and_CL.tcl 

@@ -1,0 +1,3 @@
+#vivado -mode batch -source vivado_batch_THIN_SHELL.tcl 
+vivado -mode batch -source vivado_batch_CL.tcl 
+vivado -mode batch -source vivado_batch_shell_and_CL.tcl 

@@ -1,0 +1,28 @@
+1. Create the Plave and routed and Locked Shell. (If not building a new Thin Shell Skip this step as you'd use the ${hlx_path}/VU9P_AXI_ICAP_PR_DESIGN_top.routed_BB.dcp directly). 
+This is equivalent to BLP in 2-RP parlance.
+> vivado -source vivado_batch_SHELL.tcl
+    - Builds the THIN_SHELL with TOP. CL_top (U_CL_top instance) is Black Boxed.
+    - The resulting DCP with be : ${hlx_path}/VU9P_AXI_ICAP_PR_DESIGN_top.routed_BB.dcp
+
+2. Create  CL_top.dynamic_BB.post_synth.dcp which is U_CL_top.post_synth.dcp with U_dynamic_region Black Boxed. THis is  equivalent to the PLP in 2RP parlance albeit non-programable.
+> vivado -source vivado_batch_CL_dynamic_BB.tcl
+    - THis can be run in parallel with #1 
+    - Creates   ${hlx_path}/checkpoints/CL_top.dynamic_BB.post_synth.dcp
+
+3. Create  dynamic_region part of the CL_top. THis is the actual cutomer logic + 3 DDR4 controllers and AXI infrastructure.
+> vivado -source vivado_batch_dynamic_region_ooc.tcl
+    - Creates   ./checkpoints/dynamic_region.post_synth.dcp
+
+4. Stich every thing togather
+> vivado -source vivado_batch_shell_and_CL.tcl
+     - Reads the placed and routed and locked partition for THin SHell (${hlx_path}/VU9P_AXI_ICAP_PR_DESIGN_top.routed_BB.dcp) : BLP
+     - Reads the synthesized partition for U_CL with dynamic_region Black_boxed (${hlx_path}/checkpoints/CL_top_BB.post_synth.dcp) : PLP
+     - Reads the synthesized partition for dynamic_region (./checkpoints/dynamic_region.post_synth.dcp) : dynamic_region / user logic.
+     -Link everything togather, place and route and create bit streams.
+
+- Ordinarily , only Steps 3 and 4 are required.
+- If there are changes to the "PLP" part of the Shell, run steps 2, 3, and 4
+- If anything in the Thin Shell changes, run all steps and update QSPI and cold power cycle.
+
+
+- This above flow is needed for this special case build on u200/Thin Shell with logical 2-RP like 1-RP flow.

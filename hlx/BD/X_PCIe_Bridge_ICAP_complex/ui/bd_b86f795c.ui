@@ -1,0 +1,91 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.499575",
+   "Default View_TopLeft":"-266,-118",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port M_AXI_B -pg 1 -lvl 2 -x 460 -y 250 -defaultsOSRD
+preplace port S_AXI_PCIEM -pg 1 -lvl 0 -x 0 -y 60 -defaultsOSRD
+preplace port m_axis_cq -pg 1 -lvl 0 -x 0 -y 80 -defaultsOSRD
+preplace port m_axis_rc -pg 1 -lvl 0 -x 0 -y 100 -defaultsOSRD
+preplace port pcie4_cfg_control -pg 1 -lvl 2 -x 460 -y 270 -defaultsOSRD
+preplace port pcie4_cfg_fc -pg 1 -lvl 0 -x 0 -y 120 -defaultsOSRD
+preplace port pcie4_cfg_interrupt -pg 1 -lvl 2 -x 460 -y 290 -defaultsOSRD
+preplace port pcie4_cfg_mesg_rcvd -pg 1 -lvl 0 -x 0 -y 140 -defaultsOSRD
+preplace port pcie4_cfg_mesg_tx -pg 1 -lvl 0 -x 0 -y 160 -defaultsOSRD
+preplace port pcie4_cfg_msi -pg 1 -lvl 2 -x 460 -y 310 -defaultsOSRD
+preplace port pcie_cfg_mgmt_sd -pg 1 -lvl 2 -x 460 -y 330 -defaultsOSRD
+preplace port s_axis_cc -pg 1 -lvl 2 -x 460 -y 350 -defaultsOSRD
+preplace port s_axis_rq -pg 1 -lvl 2 -x 460 -y 370 -defaultsOSRD
+preplace port axi_aresetn -pg 1 -lvl 2 -x 460 -y 390 -defaultsOSRD
+preplace port cfg_err_cor_out_sd -pg 1 -lvl 0 -x 0 -y 200 -defaultsOSRD
+preplace port cfg_err_fatal_out_sd -pg 1 -lvl 0 -x 0 -y 220 -defaultsOSRD
+preplace port cfg_err_nonfatal_out_sd -pg 1 -lvl 0 -x 0 -y 240 -defaultsOSRD
+preplace port cfg_phy_link_down_sd -pg 1 -lvl 0 -x 0 -y 380 -defaultsOSRD
+preplace port cfg_pl_status_change_sd -pg 1 -lvl 0 -x 0 -y 420 -defaultsOSRD
+preplace port clk_out_250M -pg 1 -lvl 2 -x 460 -y 410 -defaultsOSRD
+preplace port pcie_rq_seq_num_vld0_sd -pg 1 -lvl 0 -x 0 -y 500 -defaultsOSRD
+preplace port pcie_rq_seq_num_vld1_sd -pg 1 -lvl 0 -x 0 -y 520 -defaultsOSRD
+preplace port phy_rdy_out_sd -pg 1 -lvl 0 -x 0 -y 540 -defaultsOSRD
+preplace port sys_rst_n -pg 1 -lvl 0 -x 0 -y 560 -defaultsOSRD
+preplace port user_clk_sd -pg 1 -lvl 0 -x 0 -y 580 -defaultsOSRD
+preplace port user_lnk_up_sd -pg 1 -lvl 0 -x 0 -y 600 -defaultsOSRD
+preplace port user_reset_sd -pg 1 -lvl 0 -x 0 -y 620 -defaultsOSRD
+preplace portBus cfg_current_speed_sd -pg 1 -lvl 0 -x 0 -y 180 -defaultsOSRD
+preplace portBus cfg_function_status_sd -pg 1 -lvl 0 -x 0 -y 260 -defaultsOSRD
+preplace portBus cfg_local_error_out_sd -pg 1 -lvl 0 -x 0 -y 280 -defaultsOSRD
+preplace portBus cfg_ltssm_state_sd -pg 1 -lvl 0 -x 0 -y 300 -defaultsOSRD
+preplace portBus cfg_max_payload_sd -pg 1 -lvl 0 -x 0 -y 320 -defaultsOSRD
+preplace portBus cfg_max_read_req_sd -pg 1 -lvl 0 -x 0 -y 340 -defaultsOSRD
+preplace portBus cfg_negotiated_width_sd -pg 1 -lvl 0 -x 0 -y 360 -defaultsOSRD
+preplace portBus cfg_phy_link_status_sd -pg 1 -lvl 0 -x 0 -y 400 -defaultsOSRD
+preplace portBus pcie_cq_np_req_count_sd -pg 1 -lvl 0 -x 0 -y 440 -defaultsOSRD
+preplace portBus pcie_cq_np_req_sd -pg 1 -lvl 2 -x 460 -y 430 -defaultsOSRD
+preplace portBus pcie_rq_seq_num0_sd -pg 1 -lvl 0 -x 0 -y 460 -defaultsOSRD
+preplace portBus pcie_rq_seq_num1_sd -pg 1 -lvl 0 -x 0 -y 480 -defaultsOSRD
+preplace inst XDMA_BRIDGE -pg 1 -lvl 1 -x 230 -y 340 -defaultsOSRD
+preplace netloc THIN_SHELL_x_user_lnk_up 1 0 1 NJ 600
+preplace netloc XDMA_BRIDGE_axi_aresetn 1 1 1 NJ 390
+preplace netloc XDMA_BRIDGE_clk_out_250M 1 1 1 NJ 410
+preplace netloc XDMA_BRIDGE_pcie_cq_np_req_sd 1 1 1 NJ 430
+preplace netloc cfg_current_speed_sd_1 1 0 1 NJ 180
+preplace netloc cfg_err_cor_out_sd_1 1 0 1 NJ 200
+preplace netloc cfg_err_fatal_out_sd_1 1 0 1 NJ 220
+preplace netloc cfg_err_nonfatal_out_sd_1 1 0 1 NJ 240
+preplace netloc cfg_function_status_sd_1 1 0 1 NJ 260
+preplace netloc cfg_local_error_out_sd_1 1 0 1 NJ 280
+preplace netloc cfg_ltssm_state_sd_1 1 0 1 NJ 300
+preplace netloc cfg_max_payload_sd_1 1 0 1 NJ 320
+preplace netloc cfg_max_read_req_sd_1 1 0 1 NJ 340
+preplace netloc cfg_negotiated_width_sd_1 1 0 1 NJ 360
+preplace netloc cfg_phy_link_down_sd_1 1 0 1 NJ 380
+preplace netloc cfg_phy_link_status_sd_1 1 0 1 NJ 400
+preplace netloc cfg_pl_status_change_sd_1 1 0 1 NJ 420
+preplace netloc pcie_cq_np_req_count_sd_1 1 0 1 NJ 440
+preplace netloc pcie_rq_seq_num0_sd_1 1 0 1 NJ 460
+preplace netloc pcie_rq_seq_num1_sd_1 1 0 1 NJ 480
+preplace netloc pcie_rq_seq_num_vld0_sd_1 1 0 1 NJ 500
+preplace netloc pcie_rq_seq_num_vld1_sd_1 1 0 1 NJ 520
+preplace netloc phy_rdy_out_sd_1 1 0 1 NJ 540
+preplace netloc sys_rst_n_1 1 0 1 NJ 560
+preplace netloc user_clk_sd_1 1 0 1 NJ 580
+preplace netloc user_reset_sd_1 1 0 1 NJ 620
+preplace netloc Conn6 1 0 1 NJ 140
+preplace netloc Conn5 1 0 1 NJ 160
+preplace netloc Conn8 1 0 1 NJ 120
+preplace netloc Conn4 1 0 1 NJ 100
+preplace netloc S_AXI_PCIEM_1 1 0 1 NJ 60
+preplace netloc Conn10 1 1 1 NJ 290
+preplace netloc Conn2 1 1 1 NJ 350
+preplace netloc Conn11 1 1 1 NJ 330
+preplace netloc Conn9 1 1 1 NJ 310
+preplace netloc Conn1 1 0 1 NJ 80
+preplace netloc Conn3 1 1 1 NJ 370
+preplace netloc Conn7 1 1 1 NJ 270
+preplace netloc XDMA_BRIDGE_M_AXI_B 1 1 1 NJ 250
+levelinfo -pg 1 0 230 460
+pagesize -pg 1 -db -bbox -sgen -270 0 680 670
+"
+}
+0

@@ -1,0 +1,79 @@
+echo " ------ Write/read 0xaa665599 -------------------------"
+iotools mmio_write32 0xdf402000 0xaa556699
+iotools mmio_write32 0xdf402004 0xaa556699
+iotools mmio_write32 0xdf402008 0xaa556699
+iotools mmio_write32 0xdf40200c 0xaa556699
+iotools mmio_write32 0xdf402010 0xaa556699
+iotools mmio_write32 0xdf402014 0xaa556699
+iotools mmio_write32 0xdf402018 0xaa556699
+iotools mmio_write32 0xdf40201c 0xaa556699
+iotools mmio_write32 0xdf402020 0xaa556699
+iotools mmio_write32 0xdf402024 0xaa556699
+iotools mmio_write32 0xdf402028 0xaa556699
+iotools mmio_write32 0xdf40202c 0xaa556699
+iotools mmio_write32 0xdf402030 0xaa556699
+iotools mmio_write32 0xdf402034 0xaa556699
+iotools mmio_write32 0xdf402038 0xaa556699
+iotools mmio_write32 0xdf40203c 0xaa556699
+
+iotools mmio_read32 0xdf402000
+iotools mmio_read32 0xdf402004
+iotools mmio_read32 0xdf402008
+iotools mmio_read32 0xdf40200c
+iotools mmio_read32 0xdf402010
+iotools mmio_read32 0xdf402014
+iotools mmio_read32 0xdf402018
+iotools mmio_read32 0xdf40201c
+iotools mmio_read32 0xdf402020
+iotools mmio_read32 0xdf402024
+iotools mmio_read32 0xdf402028
+iotools mmio_read32 0xdf40202c
+iotools mmio_read32 0xdf402030
+iotools mmio_read32 0xdf402034
+iotools mmio_read32 0xdf402038
+iotools mmio_read32 0xdf40203c
+
+echo " ------------------------------------------------------"
+echo " ------ Write/read User Pattern -----------------------"
+echo " ------------------------------------------------------"
+
+iotools mmio_write32 0xdf402000 0x00aa0066
+iotools mmio_write32 0xdf402004 0x01aa0166
+iotools mmio_write32 0xdf402008 0x02aa0266
+iotools mmio_write32 0xdf40200c 0x03aa0366
+iotools mmio_write32 0xdf402010 0x10aa1066
+iotools mmio_write32 0xdf402014 0x11aa1166
+iotools mmio_write32 0xdf402018 0x12aa1266
+iotools mmio_write32 0xdf40201c 0x13aa1366
+iotools mmio_write32 0xdf402020 0x20aa2066
+iotools mmio_write32 0xdf402024 0x21aa2166
+iotools mmio_write32 0xdf402028 0x22aa2266
+iotools mmio_write32 0xdf40202c 0x23aa2366
+iotools mmio_write32 0xdf402030 0x30aa3066
+iotools mmio_write32 0xdf402034 0x31aa3166
+iotools mmio_write32 0xdf402038 0x32aa3266
+iotools mmio_write32 0xdf40203c 0x33aa3366
+
+iotools mmio_read32 0xdf402000
+iotools mmio_read32 0xdf402004
+iotools mmio_read32 0xdf402008
+iotools mmio_read32 0xdf40200c
+iotools mmio_read32 0xdf402010
+iotools mmio_read32 0xdf402014
+iotools mmio_read32 0xdf402018
+iotools mmio_read32 0xdf40201c
+iotools mmio_read32 0xdf402020
+iotools mmio_read32 0xdf402024
+iotools mmio_read32 0xdf402028
+iotools mmio_read32 0xdf40202c
+iotools mmio_read32 0xdf402030
+iotools mmio_read32 0xdf402034
+iotools mmio_read32 0xdf402038
+iotools mmio_read32 0xdf40203c
+echo " ------------------------------------------------------"
+iotools mmio_read32 0xdf440000
+iotools mmio_read32 0xdf440008
+iotools mmio_read32 0xdf441000
+iotools mmio_read32 0xdf441008
+iotools mmio_read32 0xdf442000
+iotools mmio_read32 0xdf442008

@@ -1,0 +1,7 @@
+echo $1
+for (( i=0; i < $1; i++))
+do
+echo "---------- test loop $i "
+./passthru.hw df000000 df400000 ../../../../examples/rtl/cdma_example/bitfiles/VU9P_AXI_ICAP_PR_DESIGN_top.dynamic_region_cdma_pblock_CL_partial.bin
+echo "------------------------"
+done
